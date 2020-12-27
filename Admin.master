@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="Admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>PTP Imrd</title>
+    <link href="css/w3.css" rel="stylesheet" type="text/css" />
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+      <div class="w3-container" style="background-color: #3D4246;" >
+   <h3 style="color: #FFFFFF; width: 1175px;">IMRD College Admin side</h3>
+          <asp:Button ID="Button1" runat="server" Text="Log Out" 
+              CssClass="w3-display-right w3-btn w3-deep-orange" 
+              onclick="Button1_Click" />
+    </div>
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

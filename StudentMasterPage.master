@@ -1,0 +1,221 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="StudentMasterPage.master.cs" Inherits="StudentMasterPage" %>
+
+<!DOCTYPE html>
+<!--
+Template Name: Escarine-Edu
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html>
+<head>
+<title>PTP Imrd</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+
+</head>
+<body id="top">
+<form id="f3" runat="server">
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row0">
+  <div id="topbar" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <div class="fl_left">
+  
+        <ul class="nospace inline pushright">
+        <li><a class="faicon-facebook" href="https://www.facebook.com/RcpimrdShirpur/"><i class="fa fa-facebook"></i></a></li>
+		
+        <li><a class="faicon-twitter" href="https://twitter.com/rcpimrd"><i class="fa fa-twitter"></i></a></li>
+        
+        <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+        <li><a class="faicon-google-plus" href="mailto:vaishali.imrd@gmail.com"><i class="fa fa-google-plus"></i></a></li>
+        <li><a class="faicon-rss" href="#"><i class="fa fa-rss"></i></a></li>
+	  
+    </div>
+	<div class="fl_right">
+      
+        
+        <!-- welcome message -->
+        <div class="fl_right">
+      <ul class="faico clear">
+      Welcome 
+          <asp:Label ID="sid" runat="server" Text="Label"></asp:Label>...
+        
+      </ul>
+    </div>
+</div>
+      </ul>
+    </div>
+   
+    <!-- ################################################################################################ -->
+	
+  </div>
+  
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row1">
+  <header id="header" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+     <div id="logo" class="fl_left" style="color:White;text-shadow: 1px 3px 3px White;">
+      <h2>IMRD Teacher Portol</h2>
+    </div>
+    <nav id="mainav" class="fl_right">
+      <ul class="clear">
+        <li><a href="StudentHomePage.aspx"><i class="fa fa-home fa-fw"></i>Home</a></li></i>
+		<li><a href="#"><i class="fa fa-user fa-fw"></i>Profile</a>
+		<ul>
+		<li><a href="ViewPageStudent.aspx"><i class="fa fa-check-square fa-fw"></i>View</a>
+		<li><a href="UpdateInfoStudnet.aspx"><i class="fa fa-gear fa-fw fa-spin"></i>Update Info</a>
+		</ul>
+		</i>      
+	   <li><a href="#"><i class="fa fa-bars fa-fw"></i>Student Section</a></i>
+          <ul>
+           
+			<li><a href="MarksSectionStudent.aspx"><i class="fa fa-calculator fa-fw"></i>&nbsp;Marks Section</a></li></i>
+			<li><a href="LeavePageStudent.aspx"><i class="fa fa-thumb-tack fa-fw"></i>&nbsp;Leave</a></li></i>
+			<li><a href="ComplaintPageStudent.aspx"><i class="fa fa-pencil-square-o fa-fw"></i>&nbsp;Complaint</a></li></i>
+			 
+          </ul>
+		  
+       
+        <li><a href="#"><i class="fa fa-download fa-fw"></i>Study Material</a></i>
+          <ul>
+            <li><a href="NoticeNewspageStudent.aspx"><i class="fa fa-newspaper-o fa-fw fa-fw"></i>&nbsp;News/Notice</a></li></i>
+              <li><a href="ParentTeacherMeetingStudentPage.aspx"><i class="fa fa-newspaper-o fa-fw fa-fw"></i>&nbsp;Parent Teacher&nbsp;&nbsp;&nbsp;&nbsp; Meeting</a></li></i>
+             <li><a href="PDFpageStudent.aspx"><i class="fa fa-file-text fa-fw fa-fw"></i>&nbsp;PDF</a></li></i>
+			  
+          </ul>
+        </li>
+		
+		<li><a href="Homepage.aspx"><i class="fa fa-lock fa-fw fa-fw"></i>Logout</a></li></i>
+       
+      </ul>
+    </nav>
+    <!-- ################################################################################################ -->
+  </header>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <div id="introblocks" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+   <!-- this is content page -->
+      <asp:ContentPlaceHolder ID="Studentmaster" runat="server">
+      </asp:ContentPlaceHolder>
+    <!-- ################################################################################################ -->
+    <div class="clear"></div>
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <br />
+  <br />
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row4">
+  <footer id="footer" class="hoc topspace-0 clear"> 
+    <!-- ################################################################################################ -->
+   
+    <!-- ################################################################################################ -->
+    <div class="group">
+      <div class="one_half first">
+	  <br>
+	 
+        <h6 class="title"></h6>
+        
+         <div class="alert alert-info" style="font-size: medium;"></p>
+<h3>Contact Address</h3>
+<h4 style="color: brown;">R. C. Patel Institute Of Management Research and Development</h4>
+<p>Karvand Naka, Shirpur 425 405, Dhule (MS)<br />
+Telephone: (02563) 251028<br />
+Fax: (02563) 251808</p>
+</div>
+      </div>
+      <div class="one_quarter">
+      <br />
+        <h6 class="title"></h6>
+        <article>
+        <p>Dr. Vaishali B. Patil. (Director)
+email:vaishali.imrd@gmail.com</p>
+          <p>Prof. Manoj N. Behere(HOD MCA)
+Mo:+91-9881033312 ,
+
+Prof. Manoj B. Patel(HOD MBM)
+Mo:+91-9850156700 ,
+
+Prof. Tushar R. Patel(HOD UG)
+Mo:+91-9604829450 ,
+
+Mrs. Vaishali A. Gorle(Registrar)
+Mo:+91-9423623107 
+
+</p>
+          
+        </article>
+      </div>
+      <div class="one_quarter">
+        <br />
+	    
+        <h6 class="title"></h6>
+        <article>
+         <img src="css/kkk.png" height="170px" width="800px" />
+         
+        </article>
+      </div>
+    </div>
+    <!-- ################################################################################################ -->
+  </footer>
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+ 
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+
+    <p class="fl_left">Copyright &copy; 2018- All Rights Reserved - <a href="#">RCPIMRD Shirpur</a></p>
+    
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery-ui.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+<!-- IE9 Placeholder Support -->
+<script src="layout/scripts/jquery.placeholder.min.js"></script>
+<!-- / IE9 Placeholder Support -->
+</form>
+</body>
+</html>
